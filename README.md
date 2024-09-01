@@ -1,8 +1,7 @@
-# React + Vite
+Prueba de concepto de reutilización de componentes!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Con este repositorio se busca probar la eficacia de poder utilizar un componente custom y poder ir creando variantes partiendo de la misma base.
+De esta forma obtendremos un codigo mas prolijo, mantible y escalable.
+Por otro lado, evitaremos caer en codigo duplicado.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En el ejemplo se usa una Card llamado CustomCard y a partir de esta poder crear todas las variantes que necesitemos.
